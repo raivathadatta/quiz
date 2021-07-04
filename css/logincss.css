@@ -1,0 +1,81 @@
+#navbar{
+    font-style: italic ;
+    background-color:darkgray !important;
+    text-shadow: 2;
+    color:blue ;
+}
+#photo {
+width: 60rem;
+
+}
+#form-details {
+    text-align: center;
+    border: 20px;
+    width: 200px;
+    padding: 2px;
+    position:relative;
+    left: -6rem;
+    top: 4rem;
+    height: 320px;
+    margin: bottom 3rem; ;
+    border-radius: 4rem;
+    /*transform: translate(-50%,-50%);*/
+background-color: #191919;
+}
+#form-details{
+    
+    color: white;
+    width: 400px;
+    background-color: #191919;
+}
+#form-details input[type="email"], #form-details input[type="password"]{
+    background: none;
+    width: 200px;
+    margin: 20px auto;
+    border: 2px solid #3498db;
+    border-radius: 24px;
+    transition: 0.25s;
+
+}
+
+#form-details input[type="email"]:focus, #form-details input[type="password"]:focus{
+width: 280px;
+border: color #2ecc71; ;
+}
+form-details input[type="subbmit"]:hover{
+    background:#2ecc71 ;
+}
+#form-details input[type="submit"]{
+    background: none;
+    width: 200px;
+    margin: 20px auto;
+    border: 2px solid #3498db;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+#details{
+    background-color: rgb(170, 170, 252) !important ;
+}
+/* #form-details{
+    background-color: whitesmoke;
+} */
+#footer{
+    background-color: black;
+    color: white;
+}
+#quiz-footer{
+    color: red;
+    padding:3;
+    text-shadow: 4 cornsilk;
+    
+}
+
+#social-links{
+    position: relative;
+    left: 4rem;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
