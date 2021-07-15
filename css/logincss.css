@@ -2,10 +2,17 @@
     font-style: italic ;
     background-color:darkgray !important;
     text-shadow: 2;
+    position:sticky;
     color:blue ;
 }
+#navbar{
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
 #photo {
-width: 60rem;
+width: 65rem;
 
 }
 #form-details {
@@ -14,7 +21,8 @@ width: 60rem;
     width: 200px;
     padding: 2px;
     position:relative;
-    left: -6rem;
+    left: -7rem;
+    left:auto;
     top: 4rem;
     height: 320px;
     margin: bottom 3rem; ;
