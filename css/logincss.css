@@ -9,12 +9,11 @@
     top: 0;
     z-index: 100;
     position: fixed;
-    width: 100%;
+    width: 90%;
 }
 #photo {
-width: 65rem;
-height: auto;
-
+    max-width: 100%;
+  height: auto;
 }
 #form-details {
     text-align: center;
@@ -22,8 +21,8 @@ height: auto;
     width: 200px;
     padding: 2px;
     position:relative;
-    left: -7rem;
     left:auto;
+    right: auto;
     top: 4rem;
     height: 320px;
     margin: bottom 3rem; ;
